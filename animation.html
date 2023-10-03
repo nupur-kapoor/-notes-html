@@ -1,0 +1,198 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>TextAnimation</title>
+	<style type="text/css">
+		*
+		{
+			margin:  0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		 .main
+		 {
+		 	height: 100vh;
+		 	background: black;
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+		 }
+		 .first
+		 {
+		 	width: 500px;
+		 	height: 200px;
+		 	/*background:pink;                   */
+
+		 }
+		 .part
+		 {
+		 	width: 500px;
+		 	height: 100px;
+		 	/*background:white;*/
+		 }
+		 .p
+		 {
+           font-size: 70px;
+           float: left;
+           color: #c3c3c3;
+           margin-top: 0px;
+           margin-left: 30px;
+           transform-origin: bottom;
+          transition: 5s;
+           cursor: pointer;
+          
+     }
+
+		 .first:hover .p:nth-child(1)
+		  {
+		  	transform: rotate(180deg);
+		  	filter: blur(50px);
+		  	transition-delay: 1s;
+		  }
+
+		  .first:hover .p:nth-child(2)
+		  {
+		  	transform: rotate(180deg);
+		  	filter: blur( 50px);
+		  	transition-delay: 2s;
+		  }
+
+		  .first:hover .p:nth-child(3)
+		  {
+		  	transform: rotate(180deg);
+            filter: blur(50px);
+            transition-delay: 3s;
+          }
+
+          .first:hover .p:nth-child(4)
+          {
+          	transform: rotate(180deg);
+          	filter: blur(50px);
+          	transition-delay: 4s;
+          }
+
+          .first:hover .p:nth-child(5)
+         
+          {
+          	transform: rotate(180deg);
+          	filter: blur(50px);
+          	transition-delay: 5s;
+          }
+
+          .first:hover .p:nth-child(6)
+         
+          {
+          	transform: rotate(180deg);
+          	filter: blur(50px);
+          	transition-delay: 6s;
+          }
+
+    .part1
+		 {
+		 	width: 500px;
+		 	height: 100px;
+		 	/*background:blue;*/
+		 	transform: rotate(180deg);
+		 }
+
+		 .p1
+		  {
+           font-size: 70px;
+           font-weight: bold;
+           float: left;
+           color: red;
+           margin-top: 0px;
+           margin-left: 30px;
+           transform-origin: bottom;
+           transition: 5s;
+           filter: blur(50px);
+          
+          
+
+        }
+
+        .first:hover .p1:nth-child(6)
+        {
+        	transform: rotate(180deg);
+        	filter: blur(0px);
+        	transition-delay: 1s;
+        }
+
+        .first:hover .p1:nth-child(5)
+        {
+        	transform: rotate(180deg);
+        	filter: blur(0px);
+        	transition-delay: 2s;
+        }
+
+         .first:hover .p1:nth-child(4)
+        {
+        	transform: rotate(180deg);
+        	filter: blur(0px);
+        	transition-delay: 3s;
+        }
+     
+
+     .first:hover .p1:nth-child(3)
+        {
+        	transform: rotate(180deg);
+        	filter: blur(0px);
+        	transition-delay: 4s;
+        }
+     
+
+     .first:hover .p1:nth-child(2)
+        {
+        	transform: rotate(180deg);
+        	filter: blur(0px);
+        	transition-delay: 4s;
+        }
+      
+
+      .first:hover .p1:nth-child(2)
+        {
+        	transform: rotate(180deg);
+        	filter: blur(0px);
+        	transition-delay: 5s;
+        }
+
+
+       .first:hover .p1:nth-child(1)
+        {
+        	transform: rotate(180deg);
+        	filter: blur(0px);
+        	transition-delay: 6s;
+        }
+
+	</style>
+  </head>
+	<!-- -------------------------------------------------------------------------- -->
+
+<body>
+	<div class="main">
+		<div class="first">
+			<div class="part">
+				<p class="p">G</p>
+				<p class="p">E</p>
+				<p class="p">N</p>
+				<p class="p">E</p>
+				<p class="p">X</p>
+				<p class="p">T</p>
+			</div>
+
+
+			<!-- --------------------------------------------------->
+			<div class="part1">
+				<p class="p1">T</p>
+				<p class="p1">I</p>
+				<p class="p1">N</p>
+				<p class="p1">Y</p>
+				<p class="p1">A</p>
+				<p class="p1">J</p>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container
+    {
+        display: grid;
+        padding: 10px;
+        background-color: aqua;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+
+    }
+
+    .box
+    {
+        text-align: center;
+        background-color: blueviolet;
+        border: 3px solid black;
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+
+    .item-2
+    {
+        grid-area: 2/2 /5 /4;
+        background-color: bisque;
+        /* height: 200px; */
+    }
+    .item-5
+    {
+        grid-area: 5/1/7/3 ;
+        background-color: chartreuse;
+    }
+    .item-1
+    {
+        grid-area: 1/1/3/2;
+        background-color: darkgrey;
+    }
+    .item-9
+    {
+        grid-area: 3/4/6/5;
+        background-color: darkcyan;
+    }
+
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+
+     <div class="box item-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias pariatur error distinctio accusantium aut, perferendis laboriosam repellat saepe dolores sequi amet recusandae nihil quae sint perspiciatis voluptatem ex ullam illum!</div>
+     <div class="box item-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis et sunt harum atque alias quaerat exercitationem nesciunt, deserunt eaque officiis facere aliquid voluptas, eum eveniet itaque earum esse ex!</div>
+     <div class="box item-3">C</div>
+     <div class="box item-4">D</div>
+     <div class="box item-5">E</div>
+     <div class="box item-6">F</div>
+     <div class="box item-7">G</div>
+     <div class="box item-8">H</div>
+     <div class="box item-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos, cumque tenetur laboriosam nobis nemo sit pariatur quisquam accusantium voluptatibus voluptatem quo quas repellendus rem nesciunt ad suscipit nisi voluptatum.</div>
+     <div class="box item-10">J</div>
+     <div class="box item-11">K</div>
+     <div class="box item-12">L</div>
+     <div class="box item-13">M</div>
+     <div class="box item-14">N</div>
+     <div class="box item-15">O</div>
+
+
+    </div>
+    
+</body>
+</html>
